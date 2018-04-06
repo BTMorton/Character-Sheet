@@ -1,0 +1,444 @@
+<html>
+<head>
+    <link rel="stylesheet" href="charsheet.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <div class="sheet">
+        <div class="charinfo">
+            <div class="charname">
+                <span>Wymar Galanodel</span>
+                <label>Character Name</label>
+            </div>
+        </div>
+        <div class="overview">
+            <div class="class">
+                <span>Bard 1</span>
+                <label>Class &amp; Level</label>
+            </div>
+            <div class="background">
+                <span>Entertainer</span>
+                <label>Background</label>
+            </div>
+            <div class="race">
+                <span>Half-Elf</span>
+                <label>Race</label>
+            </div>
+            <div class="alignment">
+                <span>Chaotic Neutral</span>
+                <label>Alignment</label>
+            </div>
+            <div class="xp">
+                <span></span>
+                <label>Experience</label>
+            </div>
+        </div>
+        <div class="abilities">
+            <div class="prof-bonus">
+                <div class="prof-value">
+                    +3
+                </div>
+                <div class="prof-cont">
+                    <label>Proficiency Bonus</label>
+                </div>
+            </div>
+            <div class="inspiration">
+                <div class="insp-value">
+                    +3
+                </div>
+                <div class="insp-cont">
+                    <label>Inspiration</label>
+                </div>
+            </div>
+            <div class="ability">
+                <div class="mod-cont">
+                    <div class="small">11</div>
+                    <div class="big">
+                        +0
+                        <label>strength</label>
+                    </div>
+                </div>
+                <ul class="skills">
+                    <li class="saving-throw">
+                        <div class="check">
+                            <input type="checkbox" id="str_saving_throw" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="str_saving_throw">Saving Throws</label>
+                    </li>
+                    <li>
+                        <div class="check">
+                            <input type="checkbox" id="athletics_skill" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="athletics_skill">Athletics</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="ability">
+                <div class="mod-cont">
+                    <div class="small">16</div>
+                    <div class="big">
+                        +3
+                        <label>Dexterity</label>
+                    </div>
+                </div>
+                <ul class="skills">
+                    <li class="saving-throw">
+                        <div class="check">
+                            <input type="checkbox" id="dex_saving_throw" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="dex_saving_throw">Saving Throws</label>
+                    </li>
+                    <li>
+                        <div class="check">
+                            <input type="checkbox" id="acrobatics_skill" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="acrobatics_skill">Acrobatics</label>
+                    </li>
+                    <li>
+                        <div class="check">
+                            <input type="checkbox" id="sleight_of_hand_skill" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="sleight_of_hand_skill">Sleight of Hand</label>
+                    </li>
+                    <li>
+                        <div class="check">
+                            <input type="checkbox" id="stealth_skill" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="stealth_skill">Stealth</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="ability">
+                <div class="mod-cont">
+                    <div class="small">12</div>
+                    <div class="big">
+                        +1
+                        <label>Constitution</label>
+                    </div>
+                </div>
+                <ul class="skills">
+                    <li class="saving-throw">
+                        <div class="check">
+                            <input type="checkbox" id="con_saving_throw" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="con_saving_throw">Saving Throws</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="ability">
+                <div class="mod-cont">
+                    <div class="small">11</div>
+                    <div class="big">
+                        +0
+                        <label>Intelligence</label>
+                    </div>
+                </div>
+                <ul class="skills">
+                    <li class="saving-throw">
+                        <div class="check">
+                            <input type="checkbox" id="int_saving_throw" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="int_saving_throw">Saving Throws</label>
+                    </li>
+                    <li>
+                        <div class="check">
+                            <input type="checkbox" id="acrobatics_skill" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="acrobatics_skill">Arcana</label>
+                    </li>
+                    <li>
+                        <div class="check">
+                            <input type="checkbox" id="sleight_of_hand_skill" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="sleight_of_hand_skill">History</label>
+                    </li>
+                    <li>
+                        <div class="check">
+                            <input type="checkbox" id="Investigation_skill" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="Investigation_skill">Investigation</label>
+                    </li>
+                    <li>
+                        <div class="check">
+                            <input type="checkbox" id="Nature_skill" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="Nature_skill">Nature</label>
+                    </li>
+                    <li>
+                        <div class="check">
+                            <input type="checkbox" id="Religion_skill" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="Religion_skill">Religion</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="ability">
+                <div class="mod-cont">
+                    <div class="small">12</div>
+                    <div class="big">
+                        +1
+                        <label>Wisdom</label>
+                    </div>
+                </div>
+                <ul class="skills">
+                    <li class="saving-throw">
+                        <div class="check">
+                            <input type="checkbox" id="wis_saving_throw" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="wis_saving_throw">Saving Throws</label>
+                    </li>
+                    <li>
+                        <div class="check">
+                            <input type="checkbox" id="Animal_Handling_skill" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="Animal_Handling_skill">Animal Handling</label>
+                    </li>
+                    <li>
+                        <div class="check">
+                            <input type="checkbox" id="Insight_skill" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="Insight_skill">Insight</label>
+                    </li>
+                    <li>
+                        <div class="check">
+                            <input type="checkbox" id="Medicine_skill" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="Medicine_skill">Medicine</label>
+                    </li>
+                    <li>
+                        <div class="check">
+                            <input type="checkbox" id="Perception_skill" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="Perception_skill">Perception</label>
+                    </li>
+                    <li>
+                        <div class="check">
+                            <input type="checkbox" id="Survival_skill" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="Survival_skill">Survival</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="ability">
+                <div class="mod-cont">
+                    <div class="small">20</div>
+                    <div class="big">
+                        +5
+                        <label>Charisma</label>
+                    </div>
+                </div>
+                <ul class="skills">
+                    <li class="saving-throw">
+                        <div class="check">
+                            <input type="checkbox" id="cha_saving_throw" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="cha_saving_throw">Saving Throws</label>
+                    </li>
+                    <li>
+                        <div class="check">
+                            <input type="checkbox" id="Deception_skill" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="Deception_skill">Deception</label>
+                    </li>
+                    <li>
+                        <div class="check">
+                            <input type="checkbox" id="Intimidation_skill" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="Intimidation_skill">Intimidation</label>
+                    </li>
+                    <li>
+                        <div class="check">
+                            <input type="checkbox" id="Performance_skill" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="Performance_skill">Performance</label>
+                    </li>
+                    <li>
+                        <div class="check">
+                            <input type="checkbox" id="Persuasion_skill" />
+                            <div class="checkmark"></div>
+                        </div>
+                        <span class="value"></span>
+                        <label for="Persuasion_skill">Persuasion</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="pwis">
+                <div class="pwis-value">
+                    11
+                </div>
+                <div class="pwis-cont">
+                    <label>Passive Wisdom (Perception)</label>
+                </div>
+            </div>
+        </div>
+        <div class="health">
+            <div class="ac">
+                <div class="ac_cont">
+                    <div class="value">15</div>
+                    <label>Armor Class</label>
+                </div>
+            </div>
+            <div class="initiative">
+                <div class="init_cont">
+                    <div class="value">+4</div>
+                    <label>initiative</label>
+                </div>
+            </div>
+            <div class="speed">
+                <div class="speed_cont">
+                    <div class="value">30</div>
+                    <label>speed</label>
+                </div>
+            </div>
+            <div class="hp">
+                <label>Current Hit Points</label>
+            </div>
+            <div class="temphp">
+                <label>Temporary Hit Points</label>
+            </div>
+            <div class="hitdice">
+                <label>Hit Dice</label>
+            </div>
+            <div class="saves">
+                <div class="success">
+                    <label class="title">Successes</label>
+                    <label class="check">
+                        <input type="checkbox" id="success_save_1" />
+                        <div class="checkmark"></div>
+                    </label>
+                    <label class="check">
+                        <input type="checkbox" id="success_save_2" />
+                        <div class="checkmark"></div>
+                    </label>
+                    <label class="check">
+                        <input type="checkbox" id="success_save_3" />
+                        <div class="checkmark"></div>
+                    </label>
+                </div>
+                <div class="failure">
+                    <label class="title">Failures</label>
+                    <label class="check">
+                        <input type="checkbox" id="fail_save_1" />
+                        <div class="checkmark"></div>
+                    </label>
+                    <label class="check">
+                        <input type="checkbox" id="fail_save_2" />
+                        <div class="checkmark"></div>
+                    </label>
+                    <label class="check">
+                        <input type="checkbox" id="fail_save_3" />
+                        <div class="checkmark"></div>
+                    </label>
+                </div>
+                <label>Death Saves</label>
+            </div>
+        </div>
+        <div class="personality">
+            <div class="traits">
+                <label>Personality Traits</label>
+            </div>
+            <div class="ideals">
+                <label>Ideals</label>
+            </div>
+            <div class="bonds">
+                <label>Bonds</label>
+            </div>
+            <div class="flaws">
+                <label>Flaws</label>
+            </div>
+        </div>
+        <div class="attacks">
+            <div class="attack">
+                <div class="name"></div>
+                <div class="bonus"></div>
+                <div class="type"></div>
+            </div>
+            <div class="attack">
+                <div class="name"></div>
+                <div class="bonus"></div>
+                <div class="type"></div>
+            </div>
+            <div class="attack">
+                <div class="name"></div>
+                <div class="bonus"></div>
+                <div class="type"></div>
+            </div>
+            <div class="misc"></div>
+        </div>
+        <div class="feats">
+            <label>Features &amp; Traits</label>
+        </div>
+        <div class="proficiencies">
+            <label>Other Proficiencies &amp; Languages</label>
+        </div>
+        <div class="equipment">
+            <div class="money">
+                <div class="pp">
+                    <label>pp</label>
+                </div>
+                <div class="gp">
+                    <label>gp</label>
+                </div>
+                <div class="sp">
+                    <label>sp</label>
+                </div>
+                <div class="ep">
+                    <label>ep</label>
+                </div>
+                <div class="cp">
+                    <label>cp</label>
+                </div>
+            </div>
+            <div class="list">
+                <label>Equipment</label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
